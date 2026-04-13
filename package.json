@@ -1,0 +1,24 @@
+{
+  "name": "rehabilitph-app",
+  "version": "1.0.0",
+  "private": true,
+  "fitbit": {
+    
+    "appType": "app",
+    "appDisplayName": "RehabiliTPH",
+    "iconFile": "resources/assets/icon.png",
+    "wipeColor": "#000000",
+    "requestedPermissions": [
+      "access_exercise",
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "sense",
+      "versa3"
+    ]
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  }
+}

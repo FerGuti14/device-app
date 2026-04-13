@@ -1,0 +1,19 @@
+#background {
+  viewport-fill: black;
+}
+
+#exercise-name {
+  fill: white;
+}
+
+#btn-prev {
+  fill: #f44336; /* Rojo */
+}
+
+#btn-next {
+  fill: #4caf50; /* Verde */
+}
+
+#exercise-img {
+  image-rendering: crisp-edges;
+}
